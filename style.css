@@ -26,6 +26,12 @@ body{
     border: none;
     border-radius: 2rem;
     backdrop-filter: blur(25px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
 }
 .profile{
     position: absolute;
@@ -41,24 +47,17 @@ body{
 .profile-txt{
     position: absolute;
     color: white;
-    top: 21.3rem;
+    top: 9.5rem;
     font-size: 2rem;
 }
 @media only screen and (max-width: 580px){
     .profile-txt{
         font-size: 1.5rem;
-        top: 22rem;
+        top: 10.5rem;
     }
 }
 @media only screen and (max-width: 450px){
     .profile-txt{
-        font-size: 1.3rem;
-        top: 22.2rem;
-    }
-}
-@media only screen and (max-width: 360px){
-    .profile-txt{
-        font-size: 1rem;
-        top: 22.4rem;
+        top: 10rem;
     }
 }
