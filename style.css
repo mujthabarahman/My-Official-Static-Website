@@ -69,3 +69,32 @@ body{
     position: absolute;
     margin-top: 527px;
 }
+.about-container{
+    max-width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.about-bg{
+    background-image: url(images/pexels-suvan-chowdhury-144429.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40rem;
+    max-height: 70rem;
+    width: 100%;
+}
+.about-header{
+    font-size: 2rem;
+}
+.about-txt{
+    max-width: 550px;
+    font-size: medium;
+    font-size: 1.3rem;
+}
+.about-contents{
+    position: absolute;
+    padding: 50px;
+}
