@@ -44,3 +44,21 @@ body{
     top: 21.3rem;
     font-size: 2rem;
 }
+@media only screen and (max-width: 580px){
+    .profile-txt{
+        font-size: 1.5rem;
+        top: 22rem;
+    }
+}
+@media only screen and (max-width: 450px){
+    .profile-txt{
+        font-size: 1.3rem;
+        top: 22.2rem;
+    }
+}
+@media only screen and (max-width: 360px){
+    .profile-txt{
+        font-size: 1rem;
+        top: 22.4rem;
+    }
+}
