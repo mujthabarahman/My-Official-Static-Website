@@ -21,6 +21,7 @@ body{
 }
 .profile-bg{
     width: 80%;
+    max-width: 550px;
     height: 15rem;
     position: absolute;
     border: none;
