@@ -109,3 +109,11 @@ body{
     text-align: center;
     padding: 10px;
 }
+@media only screen and (max-width: 298px){
+    .about-header{
+        font-size: 2rem;
+    }
+    .about-txt{
+        font-size: 1.1rem;
+    }
+}
