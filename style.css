@@ -94,8 +94,18 @@ body{
     font-size: medium;
     font-size: 1.3rem;
 }
-.about-contents{
+.about-content-bg{
+    width: 80%;
+    max-width: 550px;
+    max-height: 70rem;
     position: absolute;
-    padding-left: 50px;
-    padding-right: 50px;
+    border: none;
+    border-radius: 2rem;
+    backdrop-filter: blur(150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
 }
