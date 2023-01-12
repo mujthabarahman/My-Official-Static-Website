@@ -117,3 +117,10 @@ body{
         font-size: 1.1rem;
     }
 }
+.about-container .bottom-fade{
+    background-image: linear-gradient(180deg,transparent, rgba(0, 0, 0, 0.61),rgb(0, 0, 0));
+    height: 7rem;
+    width: 100%;
+    position: absolute;
+    margin-top: 855px;
+}
