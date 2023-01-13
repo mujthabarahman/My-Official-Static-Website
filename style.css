@@ -133,3 +133,16 @@ body{
     padding: 10px;
     text-align: center;
 }
+.top-releases-container .posters{
+    display: flex;
+}
+.top-releases-container .poster iframe{
+    width: 30rem;
+}
+.top-releases-container .poster{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.top-releases-container .poster::-webkit-scrollbar{
+    display: none;
+}
