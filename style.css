@@ -124,3 +124,12 @@ body{
     position: absolute;
     margin-top: 855px;
 }
+.top-releases-container{
+    background-color: black;
+    color: white;
+}
+.top-releases-txt{
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+}
