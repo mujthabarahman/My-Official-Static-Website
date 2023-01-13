@@ -139,10 +139,10 @@ body{
 .top-releases-container .poster iframe{
     width: 30rem;
 }
-.top-releases-container .poster{
+.top-releases-container .posters{
     overflow-x: scroll;
     overflow-y: hidden;
 }
-.top-releases-container .poster::-webkit-scrollbar{
+.top-releases-container .posters::-webkit-scrollbar{
     display: none;
 }
