@@ -137,6 +137,10 @@ body{
 .top-releases-container .poster img{
     max-width: 525px;
     max-height: 240px;
+    border-radius: 10px;
+}
+.top-releases-container .poster{
+    margin-right: 5px;
 }
 .top-releases-container .posters{
     display: flex;
