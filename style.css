@@ -136,6 +136,10 @@ body{
 .top-releases-container .posters{
     display: flex;
 }
+.top-releases-container .poster{
+    background-image: url(images/IMG_7254\ \(1\).JPG);
+    background-size: cover;
+}
 .top-releases-container .poster iframe{
     width: 30rem;
 }
