@@ -134,14 +134,12 @@ body{
     text-align: center;
 }
 
-.top-releases-container .poster {
-    width: 500px;
-    height: 281px;
-    background-image: url(images/IMG_7308\ \(1\).JPG);
-    background-size: cover;
+.top-releases-container .poster img{
+    max-width: 525px;
+    max-height: 240px;
 }
 .top-releases-container .posters{
-    display: inline-block;
+    display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
 }
