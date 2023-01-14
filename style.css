@@ -133,9 +133,7 @@ body{
     padding: 10px;
     text-align: center;
 }
-.top-releases-container .posters{
-    display: flex;
-}
+
 .top-releases-container .poster {
     width: 500px;
     height: 281px;
@@ -143,6 +141,7 @@ body{
     background-size: cover;
 }
 .top-releases-container .posters{
+    display: inline-block;
     overflow-x: scroll;
     overflow-y: hidden;
 }
