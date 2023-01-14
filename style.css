@@ -5,7 +5,7 @@ body{
     padding: 0;
     font-family: 'Poppins' , 'sans-serif';
 }
-.home-container{
+.home-contents{
     max-width: 100%;
     display: flex;
     justify-content: center;
@@ -67,7 +67,7 @@ body{
     height: 7rem;
     width: 100%;
     position: absolute;
-    margin-top: 527px;
+    margin-top: 528px;
 }
 .about-container{
     max-width: 100%;
