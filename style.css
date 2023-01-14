@@ -133,6 +133,10 @@ body{
     padding: 10px;
     text-align: center;
 }
+.scroll-to-x-axis-txt{
+    text-align: center;
+    margin-top: -60px;
+}
 
 .top-releases-container .poster img{
     max-width: 525px;
@@ -146,6 +150,7 @@ body{
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
+    margin-top: 40px;
 }
 .top-releases-container .posters::-webkit-scrollbar{
     display: none;
