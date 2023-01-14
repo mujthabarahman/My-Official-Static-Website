@@ -136,12 +136,11 @@ body{
 .top-releases-container .posters{
     display: flex;
 }
-.top-releases-container .poster{
-    background-image: url(images/IMG_7254\ \(1\).JPG);
+.top-releases-container .poster {
+    width: 500px;
+    height: 281px;
+    background-image: url(images/IMG_7308\ \(1\).JPG);
     background-size: cover;
-}
-.top-releases-container .poster iframe{
-    width: 30rem;
 }
 .top-releases-container .posters{
     overflow-x: scroll;

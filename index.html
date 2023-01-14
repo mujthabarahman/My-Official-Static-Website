@@ -46,13 +46,22 @@
         <div class="top-releases-container">
             <div class="top-releases-txt"><h1>Top Releases</h1></div>
             <div class="posters">
-                <div class="poster"><img alt="" src="https://www.youtube.com/embed/JGefSpj6Gd0" frameborder="0"></div>
-                <div class="poster"><img alt="" src="https://www.youtube.com/embed/JGefSpj6Gd0" frameborder="0"></div>
-                <div class="poster"><img alt="" src="https://www.youtube.com/embed/JGefSpj6Gd0" frameborder="0"></div>
-                <div class="poster"><img alt="" src="https://www.youtube.com/embed/JGefSpj6Gd0" frameborder="0"></div>
+                <div class="poster" id="video_JGefSpj6Gd0"><a href="javascript:void(0)" onclick="playYT('JGefSpj6Gd0')"></div>
+                <div class="poster" id="video_JGefSpj6Gd0"><a href="javascript:void(0)" onclick="playYT('JGefSpj6Gd0')"></div>
+                <div class="poster" id="video_JGefSpj6Gd0"><a href="javascript:void(0)" onclick="playYT('JGefSpj6Gd0')"></div>
+                <div class="poster" id="video_JGefSpj6Gd0"><a href="javascript:void(0)" onclick="playYT('JGefSpj6Gd0')"></div>
             </div>
         </div>
     </section>
+
+
+
+    <script>
+        function playYT(id){
+            let html='<iframe width="500" height="281" src="https://www.youtube.com/embed/'+id+'"</iframe>';
+            document.getElementById('video_'+id).innerHTML=html;
+        }
+    </script>
 </body>
 
 </html>
