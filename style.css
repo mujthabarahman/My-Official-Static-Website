@@ -124,6 +124,13 @@ body{
     position: absolute;
     margin-top: 855px;
 }
+
+
+
+
+
+
+
 .top-releases-container{
     background-color: black;
     color: white;
@@ -166,6 +173,55 @@ body{
 }
 @media only screen and (max-width: 445px){
     .top-releases-container .poster img{
+        max-height: 190px;
+    }
+}
+
+
+
+
+.all-releases-container{
+    background-color: black;
+    color: white;
+}
+.all-releases-txt{
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+}
+.scroll-to-x-axis-txt{
+    text-align: center;
+    margin-top: -60px;
+}
+
+.all-releases-container .poster img{
+    max-width: 525px;
+    max-height: 240px;
+    border-radius: 10px;
+}
+.all-releases-container .poster{
+    margin-right: 5px;
+}
+.all-releases-container .posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    margin-top: 40px;
+}
+.all-releases-container .posters::-webkit-scrollbar{
+    display: none;
+}
+@media only screen and (max-width: 315px){
+    .all-releases-txt{
+        font-size: 1.2rem;
+    }
+    .scroll-to-x-axis-txt{
+        font-size: 1rem;
+        margin-top: -55px;
+    }
+}
+@media only screen and (max-width: 445px){
+    .all-releases-container .poster img{
         max-height: 190px;
     }
 }
