@@ -272,3 +272,33 @@ body{
         max-height: 190px;
     }
 }
+
+
+
+.contact-container{
+    background-color: black;
+    color: white
+}
+.contact-content{
+    position: absolute;
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60rem;
+}
+.contact-bg{
+    background-image: url(images/2321023.jpg);
+    width: 100%;
+    height: 60rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.contact-info img{
+    max-width: 100px;
+    max-height: 100px;
+}
