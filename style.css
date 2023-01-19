@@ -279,6 +279,7 @@ body{
 .contact-container{
     background-color: black;
     color: white;
+    margin-top: 20px;
 }
 .contact-content{
     position: absolute;
@@ -341,9 +342,9 @@ a{
     margin: 20px;
 }
 .contact-bg .fade{
-    background-image: linear-gradient(360deg,transparent, rgba(0, 0, 0, 0.61),rgb(0, 0, 0));
+    background-image: linear-gradient(180deg,transparent, rgba(0, 0, 0, 0.61),rgb(0, 0, 0));
     height: 7rem;
     width: 100%;
     position: absolute;
-    margin-top: -850px;
+    margin-top: 855px;
 }
