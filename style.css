@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Poppins' , 'sans-serif';
+    background-color: black;
 }
 .home-container{
     max-width: 100%;
@@ -277,7 +278,7 @@ body{
 
 .contact-container{
     background-color: black;
-    color: white
+    color: white;
 }
 .contact-content{
     position: absolute;
@@ -288,7 +289,7 @@ body{
     flex-direction: column;
 }
 .contact-bg{
-    background-image: url(images/2320960.jpg);
+    background-image: url(images/2320989.jpg);
     width: 100%;
     height: 60rem;
     background-size: cover;
@@ -338,4 +339,11 @@ a{
     backdrop-filter: blur(50px);
     border-radius: 30px;
     margin: 20px;
+}
+.contact-bg .fade{
+    background-image: linear-gradient(360deg,transparent, rgba(0, 0, 0, 0.61),rgb(0, 0, 0));
+    height: 7rem;
+    width: 100%;
+    position: absolute;
+    margin-top: -850px;
 }
