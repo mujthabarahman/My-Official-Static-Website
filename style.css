@@ -348,3 +348,24 @@ a{
     position: absolute;
     margin-top: 855px;
 }
+
+@media only screen and (max-width:560px){
+    .contact-content{
+        width: 80%;
+    }
+    .contact-txt{
+        font-size: 2rem;
+        margin: 0;
+    }
+    a{
+        font-size: 1rem;
+    }
+    .contact-info img{
+        max-width: 23px;
+    }
+}
+@media only screen and (max-width:320px){
+    .contact-info{
+        width: 100%;
+    }
+}
